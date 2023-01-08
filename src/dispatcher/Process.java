@@ -9,6 +9,12 @@ public class Process {
     private int burstTime;
     public int startingBurstTime;
 
+// 'int id' işlem idsini tutan değişken
+// 'int desireTime' oluşturma zamanını tutan değişken
+// 'int Priority' önerilerini tutan değişken
+// 'int burstTime' patlama zamanını tutan değişken
+// 'int startupBurstTime' başlangıçtaki patlama süresini tutan değişken
+
     public Process(int arrivalTime, int priority, int burstTime) {
         this.arrivalTime = arrivalTime;
         this.priority = priority;
